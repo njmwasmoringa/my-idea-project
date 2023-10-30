@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideas</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h3>Ideas</h3>
+        <form action="" id="search">
+            <input type="text">
+            <select name="" id="">
+                <option value="">All</option>
+                <option value="">Tech</option>
+                <option value="">Philosophy</option>
+            </select>
+            <button>&nbsp;</button>
+        </form>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Sign In</a></li>
+            <li><a href="">Sign Up</a></li>
+        </ul>
+    </header>
+
+    <main>
+
+        <aside>
+            <section class="profile">
+                <img src="./images/pp.jpg" width="100%" />
+                <h4>Your Profile</h4>
+                <hr />
+                <h5>Njmwas Profile</h5>
+            </section>
+            <section class="profile">
+                <h4>My stats</h4>
+                <hr />
+                <div>
+                    <span>120k Followers</span>
+                </div>
+                <div>
+                    <span>200k Following</span>
+                </div>
+            </section>
+        </aside>
+
+        <div>
+            <section id="ideas">
+                <form action="" id="idea-form" class="card">
+                    <h3>Share your Idea</h3>
+                    <textarea name="idea-text" required rows="5" placeholder="Type your big idea here"></textarea>
+                    <div class="medias">
+                        <select name="industry" id="" required>
+                            <option value="">Select industry</option>
+                            <option value="tech">TEch</option>
+                        </select>
+                        <input type="file" accept="image/*,video/*" name="idea-image">
+                       <!--  <button type="button" title="Upload Image" class="media">
+                            <img src="./images/icons/image_FILL0_wght400_GRAD0_opsz24.svg">
+                            Upload Image
+                        </button>
+                        <button type="button" title="Upload Video" class="media">
+                            <img src="./images/icons/videocam_FILL0_wght400_GRAD0_opsz24.svg">
+                            Upload Video
+                        </button> -->
+                        <button>Post Idea</button>
+                    </div>
+                </form>
+
+                <div id="ideas">
+                    <div class="card idea">
+                        <div class="idea-header">
+                            <div>
+                                <img src="./images/pp.jpg" width="16" alt="">
+                                <strong>Njmwas</strong>
+                            </div>
+                            <div>
+                                0 Comments
+                            </div>
+                        </div>
+
+                        <div class="idea-body">
+                            Testing
+                        </div>
+
+                        <ul class="comments">
+                            <li>COmment one</li>
+                            <li>
+                                <form action="" class="comment-form">
+                                    <textarea name="comment" rows="1"></textarea>
+                                    <button>Post comment</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+           <!--  <section id="signin">
+                <h3>ideas</h3>
+            </section>
+            <section id="signup">
+                <h3>ideas</h3>
+            </section> -->
+        </div>
+
+    </main>
+
+</body>
+
+</html>
